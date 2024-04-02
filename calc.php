@@ -193,6 +193,7 @@ class SubstrOfFourNum extends Sum
     {
         parent::Exponentiation();
         return $this->g*$this->g;
+
     }
 }
 
