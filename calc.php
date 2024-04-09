@@ -1,5 +1,5 @@
 <?php
-class Calc
+abstract class Calc
 {
      protected int $a=0;
     protected int $b=0;
@@ -24,10 +24,9 @@ class Calc
         $this->b = $b;
     }
 
-     abstract function Exponentiation()
-     {
+     abstract protected function Exponentiation();
 
-     }
+
 
 }
 
@@ -53,9 +52,9 @@ class Sum extends Calc
         return $this->c+$this->a;
     }
 
-    function Exponentiation()
+    protected function Exponentiation()
     {
-        // TODO: Implement Exponentiation() method.
+
     }
 }
 class Subtraction extends Calc
@@ -78,7 +77,7 @@ class Subtraction extends Calc
         return $this->d-$this->b;
     }
 
-    function Exponentiation()
+    protected function Exponentiation()
     {
         // TODO: Implement Exponentiation() method.
     }
@@ -103,7 +102,7 @@ final class Multi extends Calc
         return $this->e+$this->a;
     }
 
-    function Exponentiation()
+    protected function Exponentiation()
     {
         // TODO: Implement Exponentiation() method.
     }
@@ -127,7 +126,7 @@ class SumOfThreeNum extends Sum
     {
         return $this->f+$this->a+$this->b;
     }
-    public function Exponentiation()
+    protected function Exponentiation()
     {
         parent::Exponentiation();
         return $this->f*$this->f;
@@ -153,7 +152,7 @@ class SumOfFourNum extends Sum
     {
         return $this->c+$this->a+$this->b+$this->g;
     }
-    public function Exponentiation()
+    protected function Exponentiation()
     {
         parent::Exponentiation();
         return $this->g*$this->g;
@@ -178,7 +177,7 @@ class SubstrOfThreeNum extends Subtraction
     {
         return $this->f-$this->a-$this->b;
     }
-    public function Exponentiation()
+    protected function Exponentiation()
     {
         parent::Exponentiation();
         return $this->f*$this->f;
@@ -204,7 +203,7 @@ class SubstrOfFourNum extends Sum
     {
         return $this->g-$this->a-$this->b-$this->c;
     }
-    public function Exponentiation()
+    protected function Exponentiation()
     {
         parent::Exponentiation();
         return $this->g*$this->g;
