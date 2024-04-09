@@ -1,0 +1,24 @@
+{
+  "name": "vendor_name/src",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "yevheniiamitrokhina",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
