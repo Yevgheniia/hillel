@@ -1,8 +1,13 @@
 {
-  "name": "vendor_name/htdocs",
+  "name": "vendor_name/src",
   "description": "description",
   "minimum-stability": "stable",
   "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  },
   "authors": [
     {
       "name": "yevheniiamitrokhina",

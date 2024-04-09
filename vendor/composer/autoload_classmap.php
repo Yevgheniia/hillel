@@ -7,4 +7,12 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'src\\Calc' => $baseDir . '/src/Calc.php',
+    'src\\Multi' => $baseDir . '/src/Multi.php',
+    'src\\SubstrOfFourNum' => $baseDir . '/src/SubstrOfFourNum.php',
+    'src\\SubstrOfThreeNum' => $baseDir . '/src/SubstrOfThreeNum.php',
+    'src\\Subtraction' => $baseDir . '/src/Subtraction.php',
+    'src\\Sum' => $baseDir . '/src/Sum.php',
+    'src\\SumOfFourNum' => $baseDir . '/src/SumOfFourNum.php',
+    'src\\SumOfThreeNum' => $baseDir . '/src/SumOfThreeNum.php',
 );

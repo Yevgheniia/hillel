@@ -1,6 +1,6 @@
 <?php
-namespace htdocs;
-class SumOfFourNum extends Sum
+namespace src;
+class SubstrOfFourNum extends Sum
 {
     private int $g = 0;
 
@@ -15,14 +15,16 @@ class SumOfFourNum extends Sum
     }
 
 
-    public function SumOfFourNumers()
+    public function SubOfFourNumers()
     {
-        return $this->c + $this->a + $this->b + $this->g;
+        return $this->g - $this->a - $this->b - $this->c;
     }
 
     protected function Exponentiation()
     {
         parent::Exponentiation();
         return $this->g * $this->g;
+
     }
 }
+

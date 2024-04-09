@@ -1,5 +1,5 @@
 <?php
-namespace htdocs;
+namespace src;
 abstract class Calc
 {
     protected int $a = 0;

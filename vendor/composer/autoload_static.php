@@ -4,16 +4,40 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitbca09a7a8f996e0eb84463f3a1ea5eba
+class ComposerStaticInit7f7cf0c102559c2a68ef3092172299a0
 {
+    public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'src\\' => 4,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'src\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'src\\Calc' => __DIR__ . '/../..' . '/src/Calc.php',
+        'src\\Multi' => __DIR__ . '/../..' . '/src/Multi.php',
+        'src\\SubstrOfFourNum' => __DIR__ . '/../..' . '/src/SubstrOfFourNum.php',
+        'src\\SubstrOfThreeNum' => __DIR__ . '/../..' . '/src/SubstrOfThreeNum.php',
+        'src\\Subtraction' => __DIR__ . '/../..' . '/src/Subtraction.php',
+        'src\\Sum' => __DIR__ . '/../..' . '/src/Sum.php',
+        'src\\SumOfFourNum' => __DIR__ . '/../..' . '/src/SumOfFourNum.php',
+        'src\\SumOfThreeNum' => __DIR__ . '/../..' . '/src/SumOfThreeNum.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInitbca09a7a8f996e0eb84463f3a1ea5eba::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7f7cf0c102559c2a68ef3092172299a0::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7f7cf0c102559c2a68ef3092172299a0::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit7f7cf0c102559c2a68ef3092172299a0::$classMap;
 
         }, null, ClassLoader::class);
     }

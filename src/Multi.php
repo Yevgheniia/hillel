@@ -1,5 +1,5 @@
 <?php
-namespace htdocs;
+namespace src;
 
 final class Multi extends Calc
 {

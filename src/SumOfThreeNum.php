@@ -1,6 +1,6 @@
 <?php
-namespace htdocs;
-class SubstrOfThreeNum extends Subtraction
+namespace src;
+class SumOfThreeNum extends Sum
 {
     private int $f = 0;
 
@@ -15,9 +15,9 @@ class SubstrOfThreeNum extends Subtraction
     }
 
 
-    public function SubOfThreeNumers()
+    public function SumOfThreeNumers()
     {
-        return $this->f - $this->a - $this->b;
+        return $this->f + $this->a + $this->b;
     }
 
     protected function Exponentiation()

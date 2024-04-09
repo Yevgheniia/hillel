@@ -1,5 +1,5 @@
 <?php
-namespace htdocs;
+namespace src;
 class Subtraction extends Calc
 {
     protected int $d = 0;

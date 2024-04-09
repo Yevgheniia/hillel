@@ -1,5 +1,5 @@
 <?php
-namespace htdocs;
+namespace src;
 class Sum extends Calc
 {
     protected int $c = 0;
