@@ -24,7 +24,7 @@ class Calc
         $this->b = $b;
     }
 
-     public function Exponentiation()
+     abstract function Exponentiation()
      {
 
      }
@@ -52,6 +52,11 @@ class Sum extends Calc
     {
         return $this->c+$this->a;
     }
+
+    function Exponentiation()
+    {
+        // TODO: Implement Exponentiation() method.
+    }
 }
 class Subtraction extends Calc
 {
@@ -72,6 +77,11 @@ class Subtraction extends Calc
     {
         return $this->d-$this->b;
     }
+
+    function Exponentiation()
+    {
+        // TODO: Implement Exponentiation() method.
+    }
 }
 final class Multi extends Calc
 {
@@ -91,6 +101,11 @@ final class Multi extends Calc
     public function Multiplic()
     {
         return $this->e+$this->a;
+    }
+
+    function Exponentiation()
+    {
+        // TODO: Implement Exponentiation() method.
     }
 }
 class SumOfThreeNum extends Sum
