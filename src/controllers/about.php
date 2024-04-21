@@ -6,12 +6,12 @@ use src\core\Viewer;
 
 class about
 {
-    public function index($var)
+    public function index()
     {
-        Viewer::view('about_index',$var);
+        Viewer::view('about/about_index');
     }
-    public function page($var)
+    public function page()
     {
-        Viewer::view('about_page',$var);
+        Viewer::view('about/about_page');
     }
 }

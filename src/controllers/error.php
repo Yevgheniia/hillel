@@ -6,8 +6,8 @@ use src\core\Viewer;
 
 class error
 {
-public function index($var)
+public function index()
 {
-    Viewer::view('error_index',$var);
+    Viewer::view('error/error_index');
 }
 }

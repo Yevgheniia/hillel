@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="341f059d-d287-4b73-b761-93a83087333b" name="Changes" comment="" />
+    <list default="true" id="341f059d-d287-4b73-b761-93a83087333b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/models/galleries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Viewer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Viewer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/home/home_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/home/home_index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
