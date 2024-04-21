@@ -5,20 +5,20 @@ use src\core\Viewer;
 
 class gallery
 {
-    public function index($var)
+    public function index()
     {
-        Viewer::view('gallery_index',$var);
+        Viewer::view('gallery/gallery_index');
     }
-    public function create($var)
+    public function create()
     {
-        Viewer::view('gallery_create',$var);
+        Viewer::view('gallery/gallery_create');
     }
-    public function update($var)
+    public function update()
     {
-        Viewer::view('gallery_update',$var);
+        Viewer::view('gallery/gallery_update');
     }
     public function delete($var)
     {
-        Viewer::view('gallery_delete',$var);
+        Viewer::view('gallery/gallery_delete');
     }
 }
