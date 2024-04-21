@@ -2,10 +2,12 @@
 
 namespace src\controllers;
 
+use src\core\Viewer;
+
 class error
 {
-public function index()
+public function index($var)
 {
-    echo "error";
+    Viewer::view('error_index',$var);
 }
 }

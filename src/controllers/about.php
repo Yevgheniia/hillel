@@ -2,10 +2,16 @@
 
 namespace src\controllers;
 
+use src\core\Viewer;
+
 class about
 {
-    public function index()
+    public function index($var)
     {
-        echo "about";
+        Viewer::view('about_index',$var);
+    }
+    public function page($var)
+    {
+        Viewer::view('about_page',$var);
     }
 }

@@ -1,11 +1,12 @@
 <?php
 
 namespace src\controllers;
-
+use src\core\Viewer;
 class home
 {
-    public function index()
+    public function index($var)
     {
-        echo "home";
+
+        Viewer::view('home_index',$var);
     }
 }

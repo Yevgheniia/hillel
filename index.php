@@ -4,3 +4,4 @@ use src\core\router;
 
 $router=new router();
 $router->run();
+
