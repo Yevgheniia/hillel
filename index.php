@@ -1,8 +1,7 @@
 <?php
-include "vendor/autoload.php";
-use src\Sum;
+require_once "vendor/autoload.php";
+use src\core\router;
 
-$Sum=new Sum();
-$Sum->setC(5);
-var_dump($Sum);
+$router=new router();
+$router->run();
 
